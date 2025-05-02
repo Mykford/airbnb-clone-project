@@ -9,14 +9,28 @@ CI/CD pipeline Integration
 Team Development 
 
 
-## Technology stack 
+## TECHNOLOGY STACK
     Python A programming language to build the project
     Django A python framework used for building web apps and REST APIS
     Postgresql A database management software for managing the database 
     Git/Github A version control software and system that aids in code collaboration and history tracking
-## Database Design
-A user table to store details such as guests and hosts. A user can have multiple listings
-A listing table to define properties available for booking. Multiple users can book a listing 
-A bookings Table to track reservations made by guests. A user can make multiple listings
-Reviews Table to store user-generated feedback on a listing. A user can leave multiple reviews
-The payments table to handle and record transactions, Each booking has one payment record
+## DATABASE DESIGN
+
+    A user table to store details such as guests and hosts. A user can have multiple listings
+     A listing table to define properties available for booking. Multiple users can book a listing 
+     A bookings Table to track reservations made by guests. A user can make multiple listings
+     Reviews Table to store user-generated feedback on a listing. A user can leave multiple reviews
+     The payments table is used to handle and record transactions. Each booking has one payment record
+## API SECURITY
+    Authentication will be needed to ensure that only legitimate users can access the system
+    Using Django's built-in authentication for login and logout views
+    Using user models to handle and manage accounts
+    Using the Rest framework permissions, certain endpoints can be restricted for authorisation
+    API security will be important to protect user-sensitive data
+    It also ensures that we implement authentication to avoid unauthorised access and control
+## CI/CD PIPELINES    
+    CI/CD are essential because it automates testing, development and integration
+    Each time a booking is up, CI will be needed to run tests and ensure changes don't break existing functionality
+    CD will be needed to ensure that new features are shipped faster
+    
+    
