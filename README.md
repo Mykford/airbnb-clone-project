@@ -10,10 +10,13 @@ Team Development
 
 
 ## TECHNOLOGY STACK
-    Python A programming language to build the project
-    Django A python framework used for building web apps and REST APIS
-    Postgresql A database management software for managing the database 
-    Git/Github A version control software and system that aids in code collaboration and history tracking
+    Python is q programming language to build the project
+    Django is a Python framework used for building web apps and REST APIS
+    Postgresql is A database management software for managing the database 
+    Redis to cache frequent queries 
+    Stripe/PayPal for secure payment processing
+    Docker for consistent deployments across development and production environments
+    Git/Github is a version control software and system that aids in code collaboration and history tracking
 ## DATABASE DESIGN
 
     A user table to store details such as guests and hosts. A user can have multiple listings
@@ -28,9 +31,13 @@ Team Development
     Using the Rest framework permissions, certain endpoints can be restricted for authorisation
     API security will be important to protect user-sensitive data
     It also ensures that we implement authentication to avoid unauthorised access and control
+    It will safeguard payment transactions by preventing fraudulent transactions
 ## CI/CD PIPELINES    
     CI/CD are essential because it automates testing, development and integration
     Each time a booking is up, CI will be needed to run tests and ensure changes don't break existing functionality
     CD will be needed to ensure that new features are shipped faster
-    
+    TOOLS:
+            Github Actions to automate testing and deployment within Github
+            Docker and Kubernetes for Containerization and Deployment
+            Pytest and Django Test Framework for unit testing automation
     
