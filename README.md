@@ -9,12 +9,14 @@ CI/CD pipeline Integration
 Team Development 
 
 ## Team Roles
+
     Frontend Developer: Develops the frontend UI using React
     Backend Developers: Focuses on building the core logic, database design and api development
     Database Administrators: Define relational database architecture for optimal data storage
-    Product Manager: Define goals gfeatures and overall system reliability
+    Product Manager: Define goals, features and overall system reliability
 
-## TECHNOLOGY STACK
+## Technology Stack
+
     Python is q programming language to build the project
     Django is a Python framework used for building web apps and REST APIS
     Postgresql is A database management software for managing the database 
@@ -29,7 +31,15 @@ Team Development
      A bookings Table to track reservations made by guests. A user can make multiple listings
      Reviews Table to store user-generated feedback on a listing. A user can leave multiple reviews
      The payments table is used to handle and record transactions. Each booking has one payment record
-## API SECURITY
+## Feature Breakdown
+
+    User authentication for secure login and signup
+    Property Listing: To create and manage property listings with search and filter functionality
+    Booking System and Payments for real-time booking availability and scheduling
+    Reviews and Rating Guests can leave reviews and ratings for properties
+
+## API Security
+
     Authentication will be needed to ensure that only legitimate users can access the system
     Using Django's built-in authentication for login and logout views
     Using user models to handle and manage accounts
@@ -37,7 +47,8 @@ Team Development
     API security will be important to protect user-sensitive data
     It also ensures that we implement authentication to avoid unauthorised access and control
     It will safeguard payment transactions by preventing fraudulent transactions
-## CI/CD PIPELINES    
+## CI/CD Pipeline
+
     CI/CD are essential because it automates testing, development and integration
     Each time a booking is up, CI will be needed to run tests and ensure changes don't break existing functionality
     CD will be needed to ensure that new features are shipped faster
