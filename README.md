@@ -8,6 +8,11 @@ Api Design and Security
 CI/CD pipeline Integration 
 Team Development 
 
+## Team Roles
+    Frontend Developer: Develops the frontend UI using React
+    Backend Developers: Focuses on building the core logic, database design and api development
+    Database Administrators: Define relational database architecture for optimal data storage
+    Product Manager: Define goals gfeatures and overall system reliability
 
 ## TECHNOLOGY STACK
     Python is q programming language to build the project
